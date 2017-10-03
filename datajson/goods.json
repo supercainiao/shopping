@@ -1,0 +1,24 @@
+{
+    "status":"0",
+    "msg":"error",
+    "result":[
+        {
+            "productId":"10000",
+            "productName":"vivo",
+            "productPrice":2999,
+            "productImg":"1.jpg"
+        },
+        {
+            "productId":"10000",
+            "productName":"huawei",
+            "productPrice":2888,
+            "productImg":"2.jpg"
+        },
+        {
+            "productId":"10000",
+            "productName":"iphone",
+            "productPrice":5999,
+            "productImg":"3.jpg"
+        }
+    ]
+}

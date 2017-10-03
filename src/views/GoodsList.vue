@@ -105,6 +105,7 @@
 import '../assets/css/base.css'
 import '../assets/css/product.css'
 import '../assets/css/login.css'
+import axios from 'axios'
 import NavHeader from '../components/Header.vue'
 import NavFooter from '../components/Footer.vue'
     export default{
@@ -116,6 +117,17 @@ import NavFooter from '../components/Footer.vue'
         components:{
           NavHeader,
           NavFooter
+        },
+        methods:{
+          getGoodsList(){
+            axios.get('./../../datajson/goods.json').then(function(res){
+              console.log(res);
+            })
+          }
+        },
+        mounted:function(){
+          console.log(axios)
+          this.getGoodsList()
         }
     }
 </script>
