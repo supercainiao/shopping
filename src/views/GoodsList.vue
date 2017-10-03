@@ -105,7 +105,10 @@
 import '../assets/css/base.css'
 import '../assets/css/product.css'
 import '../assets/css/login.css'
+<<<<<<< HEAD
 import axios from 'axios'
+=======
+>>>>>>> 64579eee6345e45d169448a7daf213c10316a5af
 import NavHeader from '../components/Header.vue'
 import NavFooter from '../components/Footer.vue'
     export default{
@@ -117,6 +120,7 @@ import NavFooter from '../components/Footer.vue'
         components:{
           NavHeader,
           NavFooter
+<<<<<<< HEAD
         },
         methods:{
           getGoodsList(){
@@ -128,6 +132,8 @@ import NavFooter from '../components/Footer.vue'
         mounted:function(){
           console.log(axios)
           this.getGoodsList()
+=======
+>>>>>>> 64579eee6345e45d169448a7daf213c10316a5af
         }
     }
 </script>
